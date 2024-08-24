@@ -22,7 +22,7 @@ export default function AppSidebar() {
       >
         <div className="md:min-h-[100px]">
           <Link href="/">
-            <h1 className="font-semibold select-none text-xl">La.</h1>
+            <h1 className="font-semibold select-none text-xl">Br.</h1>
           </Link>
         </div>
 
