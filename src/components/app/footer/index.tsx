@@ -19,8 +19,8 @@ import {
 import Link from "next/link";
 
 export default async function AppFooter() {
-  const { data } = await wakatimeWeeklyCodingActivity();
-  const todayData = data[data.length - 1];
+  // const { data } = await wakatimeWeeklyCodingActivity();
+  // const todayData = data[data.length - 1];
 
   return (
     <div className="absolute left-0 bottom-0 w-full flex items-center justify-between bg-background text-xs border-t z-50">
@@ -60,7 +60,7 @@ export default async function AppFooter() {
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>
-        <TooltipProvider>
+        {/* <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
               <Link
@@ -76,7 +76,7 @@ export default async function AppFooter() {
               <p className="text-sm text-muted-foreground">click for more</p>
             </TooltipContent>
           </Tooltip>
-        </TooltipProvider>
+        </TooltipProvider> */}
         <div className="items-center gap-x-1 px-2 py-1 md:flex hidden text-muted-foreground">
           <p>--NORMAL--</p>
         </div>
