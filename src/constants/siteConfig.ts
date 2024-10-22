@@ -4,7 +4,7 @@ export const siteConfig = {
   description:
     "I'm a Software Developer Based in Bali. I describe myself as a passionate developer who loves coding, open-source, and the web platform ❤️",
   username: "adisusilayasa",
-  url: "https://adisusilayasa.com",
+  url: "https://adisusilayasa.web.id",
   repository: "https://github.com/adisusilayasa/portfolio",
   links: {
     github: "https://github.com/adisusilayasa",
